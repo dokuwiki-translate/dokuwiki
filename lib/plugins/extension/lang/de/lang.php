@@ -5,6 +5,7 @@
  * 
  * @author H. Richard <wanderer379@t-online.de>
  * @author Joerg <scooter22@gmx.de>
+ * @author Thor Weinreich <thorweinreich@nefkom.net>
  */
 $lang['menu']                  = 'Erweiterungen verwalten';
 $lang['tab_plugins']           = 'Installierte Plugins';
@@ -69,6 +70,11 @@ $lang['msg_plugin_install_success'] = 'Das Plugin %s wurde erfolgreich installie
 $lang['msg_plugin_update_success'] = 'Das Update des Plugins %s war erfolgreich';
 $lang['msg_upload_failed']     = 'Fehler beim Hochladen der Datei';
 $lang['missing_dependency']    = '<strong>fehlende oder deaktivierte Abhängigkeit:<strong>%s';
+$lang['security_issue']        = '<strong>Sicherheitsproblem:</strong> %s';
+$lang['security_warning']      = '<strong>Sicherheitswarnung:</strong> %s';
+$lang['update_available']      = '<strong>Update:</strong> Neue Version %s ist verfügbar.';
+$lang['wrong_folder']          = '<strong>Fehler bei der Installation des Plugin:</strong> Benenne den Plugin-Ordner "%s" um in "%s".';
+$lang['url_change']            = '<strong>URL hat sich geändert:</strong> Die URL des Downloads hat sich seit dem letzten Download geändert. Überprüfe, ob die neue URL gültig ist, bevor du die Erweiterung updatest.<br />Neu: %s<br />Alt: %s';
 $lang['error_badurl']          = 'URLs sollten mit http oder https beginnen';
 $lang['error_dircreate']       = 'Temporären Ordner konnte nicht erstellt werden, um Download zu empfangen';
 $lang['error_download']        = 'Download der Datei: %s nicht möglich.';
