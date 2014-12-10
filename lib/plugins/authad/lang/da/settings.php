@@ -5,6 +5,7 @@
  * 
  * @author Soren Birk <soer9648@hotmail.com>
  * @author Jens Hyllegaard <jens.hyllegaard@gmail.com>
+ * @author Søren Birk <sbi@eucl.dk>
  */
 $lang['account_suffix']        = 'Dit konto suffiks. F.eks. <code>@mit.domæne.dk</code>';
 $lang['base_dn']               = 'Dit grund DN. F.eks. <code>DC=mit,DC=domæne,DC=dk</code>';
@@ -12,6 +13,7 @@ $lang['domain_controllers']    = 'En kommasepareret liste over domænecontroller
 $lang['admin_username']        = 'En privilegeret Active Directory bruger med adgang til alle andre brugeres data. Valgfri, men skal bruges til forskellige handlinger såsom at sende abonnement e-mails.';
 $lang['admin_password']        = 'Kodeordet til den ovenstående bruger.';
 $lang['sso']                   = 'Bør Single-Sign-On via Kerberos eller NTLM bruges?';
+$lang['sso_charset']           = 'Karaktersættet din webserver skal sende Kerberos- eller NTLM-brugernavnet i. Blankt for UTF-8 eller latin-1. Kræver iconv udvidelsen.';
 $lang['real_primarygroup']     = 'Bør den korrekte primære gruppe findes i stedet for at antage "Domain Users" (langsommere)';
 $lang['use_ssl']               = 'Benyt SSL forbindelse? hvis ja, vælg ikke TLS herunder.';
 $lang['use_tls']               = 'Benyt TLS forbindelse? hvis ja, vælg ikke SSL herover.';

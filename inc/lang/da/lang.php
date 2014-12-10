@@ -17,6 +17,7 @@
  * @author Soren Birk <soer9648@hotmail.com>
  * @author Jens Hyllegaard <jens.hyllegaard@gmail.com>
  * @author soer9648 <soer9648@eucl.dk>
+ * @author Søren Birk <sbi@eucl.dk>
  */
 $lang['encoding']              = 'utf-8';
 $lang['direction']             = 'ltr';
@@ -61,6 +62,8 @@ $lang['btn_register']          = 'Registrér';
 $lang['btn_apply']             = 'Anvend';
 $lang['btn_media']             = 'Media Manager';
 $lang['btn_deleteuser']        = 'Fjern Min Konto';
+$lang['btn_img_backto']        = 'Tilbage til %s';
+$lang['btn_mediaManager']      = 'Vis i Media Manager';
 $lang['loggedinas']            = 'Logget ind som:';
 $lang['user']                  = 'Brugernavn';
 $lang['pass']                  = 'Adgangskode';
@@ -76,7 +79,7 @@ $lang['badpassconfirm']        = 'Kodeordet var desværre forkert';
 $lang['minoredit']             = 'Mindre ændringer';
 $lang['draftdate']             = 'Kladde automatisk gemt d.';
 $lang['nosecedit']             = 'Siden blev ændret i mellemtiden, sektions information var for gammel, hentede hele siden i stedet.';
-$lang['searchcreatepage']      = "Hvis resultaterne ikke indeholder det du søgte efter kan du oprette et nyt dokument med samme navn som søgningen ved at trykke på knappen **''[Opret dette dokument]''**.";
+$lang['searchcreatepage']      = 'Hvis resultaterne ikke indeholder det du søgte efter kan du oprette et nyt dokument med samme navn som søgningen ved at trykke på knappen **\'\'[Opret dette dokument]\'\'**.';
 $lang['regmissing']            = 'Du skal udfylde alle felter.';
 $lang['reguexists']            = 'Dette brugernavn er allerede i brug.';
 $lang['regsuccess']            = 'Du er nu oprettet som bruger. Dit adgangskode bliver sendt til dig i en e-mail.';
@@ -247,7 +250,6 @@ $lang['admin_register']        = 'Tilføj ny bruger';
 $lang['metaedit']              = 'Rediger metadata';
 $lang['metasaveerr']           = 'Skrivning af metadata fejlede';
 $lang['metasaveok']            = 'Metadata gemt';
-$lang['btn_img_backto']            = 'Tilbage til %s';
 $lang['img_title']             = 'Titel:';
 $lang['img_caption']           = 'Billedtekst:';
 $lang['img_date']              = 'Dato:';
@@ -260,7 +262,6 @@ $lang['img_camera']            = 'Kamera:';
 $lang['img_keywords']          = 'Emneord:';
 $lang['img_width']             = 'Bredde:';
 $lang['img_height']            = 'Højde:';
-$lang['btn_mediaManager']           = 'Vis i Media Manager';
 $lang['subscr_subscribe_success'] = 'Tilføjede %s til abonnement listen for %s';
 $lang['subscr_subscribe_error'] = 'Fejl ved tilføjelse af %s til abonnement listen for %s';
 $lang['subscr_subscribe_noaddress'] = 'Der er ikke nogen addresse forbundet til din bruger, så du kan ikke blive tilføjet til abonnement listen';
@@ -337,3 +338,4 @@ $lang['media_perm_read']       = 'Du har ikke nok rettigheder til at læse filer
 $lang['media_perm_upload']     = 'Du har ikke nok rettigheder til at uploade filer.';
 $lang['media_update']          = 'Upload ny version';
 $lang['media_restore']         = 'Genskab denne version';
+$lang['unable_to_parse_date']  = 'Ikke i stand til at parse ved parameter "%s"';
