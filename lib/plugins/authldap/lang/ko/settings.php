@@ -4,6 +4,7 @@
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * 
  * @author Myeongjin <aranet100@gmail.com>
+ * @author Sungmo Lim <lim.sungmo@gmail.com>
  */
 $lang['server']                = 'LDAP 서버. 호스트 이름(<code>localhost</code>)이나 전체 자격 URL(<code>ldap://server.tld:389</code>) 중 하나';
 $lang['port']                  = '위에 주어진 전체 URL이 없을 때의 LDAP 서버 포트';
@@ -19,9 +20,14 @@ $lang['binddn']                = '익명 바인드가 충분하지 않으면 선
 $lang['bindpw']                = '위 사용자의 비밀번호';
 $lang['userscope']             = '사용자 검색에 대한 검색 범위 제한';
 $lang['groupscope']            = '그룹 검색에 대한 검색 범위 제한';
+$lang['userkey']               = '사용자명에 대한 속성은 계정 정책에 부합하여야 합니다.';
 $lang['groupkey']              = '(표준 AD 그룹 대신) 사용자 속성에서 그룹 구성원. 예를 들어 부서나 전화에서 그룹';
+$lang['modPass']               = 'LDAP 비밀번호를 도쿠위키를 통해 수정할 수 있도록 하시겠습니까?';
 $lang['debug']                 = '오류에 대한 추가적인 디버그 정보를 보이기';
 $lang['deref_o_0']             = 'LDAP_DEREF_NEVER';
 $lang['deref_o_1']             = 'LDAP_DEREF_SEARCHING';
 $lang['deref_o_2']             = 'LDAP_DEREF_FINDING';
 $lang['deref_o_3']             = 'LDAP_DEREF_ALWAYS';
+$lang['referrals_o_-1']        = '기본 사용';
+$lang['referrals_o_0']         = '추천을 따르지 않음.';
+$lang['referrals_o_1']         = '추천을 허용함.';

@@ -13,6 +13,7 @@
  * @author Gerrit Uitslag <klapinklapin@gmail.com>
  * @author Garam <rowain8@gmail.com>
  * @author Young gon Cha <garmede@gmail.com>
+ * @author Sungmo Lim <lim.sungmo@gmail.com>
  */
 $lang['encoding']              = 'utf-8';
 $lang['direction']             = 'ltr';
