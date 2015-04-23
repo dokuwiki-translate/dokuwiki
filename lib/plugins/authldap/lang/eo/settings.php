@@ -4,6 +4,7 @@
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * 
  * @author Felipe Castro <fefcas@yahoo.com.br>
+ * @author Robert Bogenschneider <robog@gmx.de>
  */
 $lang['server']                = 'Via LDAP-servilo. Aŭ servila nomo (<code>localhost</code>) aŭ plene detala URL (<code>ldap://servilo.lando:389</code>)';
 $lang['port']                  = 'LDAP-servila pordego, se vi supre ne indikis la plenan URL';
@@ -19,9 +20,14 @@ $lang['binddn']                = 'DN de opcie bindita uzanto, se anonima bindado
 $lang['bindpw']                = 'Pasvorto de tiu uzanto';
 $lang['userscope']             = 'Limigi serĉospacon de uzantaj serĉoj';
 $lang['groupscope']            = 'Limigi serĉospacon por grupaj serĉoj';
+$lang['userkey']               = 'Atributo priskribanta la uzantonomon; devas kongrui kun userfilter.';
 $lang['groupkey']              = 'Grupa membreco de iu uzanta atributo (anstataŭ standardaj AD-grupoj), ekz. grupo de departemento aŭ telefonnumero';
+$lang['modPass']               = 'Ĉu eblas ŝanĝi la LDAP-pasvorton pere de DokuWiki?';
 $lang['debug']                 = 'Ĉu montri aldonajn erarinformojn?';
 $lang['deref_o_0']             = 'LDAP_DEREF_NEVER';
 $lang['deref_o_1']             = 'LDAP_DEREF_SEARCHING';
 $lang['deref_o_2']             = 'LDAP_DEREF_FINDING';
 $lang['deref_o_3']             = 'LDAP_DEREF_ALWAYS';
+$lang['referrals_o_-1']        = 'uzi standardon';
+$lang['referrals_o_0']         = 'ne sekvi ligilojn';
+$lang['referrals_o_1']         = 'sekvi ligilojn';

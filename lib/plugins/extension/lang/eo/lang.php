@@ -4,6 +4,7 @@
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * 
  * @author Robert Bogenschneider <bogi@uea.org>
+ * @author Robert Bogenschneider <robog@gmx.de>
  */
 $lang['menu']                  = 'Aldonaĵa administrado';
 $lang['tab_plugins']           = 'Instalitaj kromaĵoj';
@@ -62,6 +63,7 @@ $lang['status_bundled']        = 'kunliverita';
 $lang['msg_enabled']           = 'Kromaĵo %s ebligita';
 $lang['msg_disabled']          = 'Kromaĵo %s malebligita';
 $lang['msg_delete_success']    = 'Aldonaĵo malinstaliĝis';
+$lang['msg_delete_failed']     = 'Ne eblis malinstali kromaĵon %s';
 $lang['msg_template_install_success'] = 'Ŝablono %s sukcese instaliĝis';
 $lang['msg_template_update_success'] = 'Ŝablono %s sukcese aktualiĝis';
 $lang['msg_plugin_install_success'] = 'Kromaĵo %s sukcese instaliĝis';
@@ -83,5 +85,8 @@ $lang['noperms']               = 'La aldonaĵ-dosierujo ne estas skribebla';
 $lang['notplperms']            = 'La ŝablon-dosierujo ne estas skribebla';
 $lang['nopluginperms']         = 'La kromaĵ-dosierujo ne estas skribebla';
 $lang['git']                   = 'Tiu aldonaĵo estis instalita pere de git, eble vi ne aktualigu ĝin ĉi tie.';
+$lang['auth']                  = 'Tiu auth-kromaĵo ne aktiviĝis en la konfigurado, eble malŝaltu ĝin.';
 $lang['install_url']           = 'Instali de URL:';
 $lang['install_upload']        = 'Alŝuti aldonaĵon:';
+$lang['repo_error']            = 'Ne eblis kontakti la kodaron. Certigu, ke via servilo rajtas kontakti www.dokuwiki.org kaj kontrolu viajn proksi-agordojn.';
+$lang['nossl']                 = 'Ŝajne via PHP ne subtenas SSL. Elŝutado ne funkcios por multaj DokuWiki-kromaĵoj.';

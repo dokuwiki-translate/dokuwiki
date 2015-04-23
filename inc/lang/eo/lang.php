@@ -288,6 +288,7 @@ $lang['i_modified']            = 'Pro sekureco tiu ĉi instalilo nur funkcias po
 Vi devas aŭ redemeti la dosierojn el la elŝutita pakaĵo aŭ plibone informiĝi pri la instalada procezo.';
 $lang['i_funcna']              = 'La PHP-a funkcio <code>%s</code> ne estas uzebla. Eble via retprovizanto ial malpermesis tion?';
 $lang['i_phpver']              = 'La versio de la PHP <code>%s</code> estas pli malnova ol la bezonata <code>%s</code>. Vi bezonas ĝisdatigi la PHP-an instalon.';
+$lang['i_mbfuncoverload']      = 'Vi devas malŝalti mbstring.func_overload en php.ini por starti DokuWiki.';
 $lang['i_permfail']            = '<code>%s</code> ne estas skribebla por DokuWiki. Vi devas redifini la permes-atributojn de tiu ĉi dosierujo!';
 $lang['i_confexists']          = '<code>%s</code> jam ekzistas';
 $lang['i_writeerr']            = 'Ne eblas krei "<code>%s</code>". Vi bezonas kontroli la permesojn de la dosier(uj)oj kaj mem krej la dosieron.';
@@ -341,3 +342,5 @@ $lang['currentns']             = 'Aktuala nomspaco';
 $lang['searchresult']          = 'Serĉrezulto';
 $lang['plainhtml']             = 'Plena HTML';
 $lang['wikimarkup']            = 'Vikiteksto';
+$lang['page_nonexist_rev']     = 'La paĝo ne ekzistas ĉe %s. Ĝi kreiĝis ĉe <a href="%s">%s</a>.';
+$lang['unable_to_parse_date']  = 'Parametro "%s" ne estas komprenebla.';
