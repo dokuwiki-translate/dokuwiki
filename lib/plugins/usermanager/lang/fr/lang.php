@@ -24,6 +24,7 @@
  * @author Antoine Turmel <geekshadow@gmail.com>
  * @author schplurtz <Schplurtz@laposte.net>
  * @author Jérôme Brandt <jeromebrandt@gmail.com>
+ * @author Hardy Kévin <h.kevin@neuf.fr>
  */
 $lang['menu']                  = 'Gestion des utilisateurs';
 $lang['noauth']                = '(authentification de l\'utilisateur non disponible)';
@@ -84,3 +85,11 @@ $lang['import_error_readfail'] = 'L\'import a échoué. Impossible de lire le fi
 $lang['import_error_create']   = 'Impossible de créer l\'utilisateur';
 $lang['import_notify_fail']    = 'Impossible d\'expédier une notification à l\'utilisateur importé %s, adresse %s.';
 $lang['import_downloadfailures'] = 'Télécharger les erreurs au format CSV pour correction';
+$lang['addUser_error_missing_pass'] = 'S\'il vous plaît, définissez un mot de passe ou activer la notification de l\'utilisateur pour permettre la génération de mot de passe.';
+$lang['addUser_error_pass_not_identical'] = 'Les mots de passe entrés ne sont pas identiques.';
+$lang['addUser_error_modPass_disabled'] = 'La modification de mots de passe est actuellement désactivée.';
+$lang['addUser_error_name_missing'] = 'Entrer un nom pour le nouvel utilisateur s\'il vous plaît.';
+$lang['addUser_error_modName_disabled'] = 'La modification de noms est actuellement désactivée.';
+$lang['addUser_error_mail_missing'] = 'Entrer une adresse e-mail pour le nouvel utilisateur s\'il vous plaît.';
+$lang['addUser_error_modMail_disabled'] = 'La modification d\'adresse e-mail est actuellement désactivée.';
+$lang['addUser_error_create_event_failed'] = 'Un plugin a empêché le nouvel utilisateur de s\'ajouter. Consultez éventuellement d\'autres messages pour plus d\'informations.';
