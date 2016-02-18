@@ -26,6 +26,7 @@
  * @author Yuwei Sun <yuwei@hrz.tu-chemnitz.de>
  * @author Errol <errol@hotmail.com>
  * @author Garfield <garfield_550@outlook.com>
+ * @author admin <82043525@163.com>
  */
 $lang['encoding']              = 'utf-8';
 $lang['direction']             = 'ltr';
