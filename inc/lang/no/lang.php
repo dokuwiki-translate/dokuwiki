@@ -23,6 +23,7 @@
  * @author Christopher Schive <chschive@frisurf.no>
  * @author Patrick <spill.p@hotmail.com>
  * @author Danny Buckhof <daniel.raknes@hotmail.no>
+ * @author Arne Hanssen <arne.hanssen@getmail.no>
  */
 $lang['encoding']              = 'utf-8';
 $lang['direction']             = 'ltr';
@@ -88,7 +89,7 @@ $lang['regmissing']            = 'Vennligst fyll ut alle felt.';
 $lang['reguexists']            = 'Det finnes allerede en konto med dette brukernavnet.';
 $lang['regsuccess']            = 'Brukerkonto har blitt laget og passord har blitt sendt via e-post.';
 $lang['regsuccess2']           = 'Brukeren har blitt laget.';
-$lang['regfail']               = 'Brukeren kan ikke opprettes';
+$lang['regfail']               = 'Brukeren kan ikke opprettes.';
 $lang['regmailfail']           = 'En feil oppstod da passordet ditt skulle sendes via e-post. Vennligst kontakt administratoren!';
 $lang['regbadmail']            = 'Den angitte e-post adressen ser ut til å være ugyldig. Vennligst kontakt administratoren om du anser dette som feilaktig.';
 $lang['regbadpass']            = 'De to angitte passordene er ikke like, vennligst forsøk igjen.';
@@ -101,10 +102,10 @@ $lang['profchanged']           = 'Brukerprofilen ble vellykket oppdatert.';
 $lang['profnodelete']          = 'Denne wikien støtter ikke sletting av brukere';
 $lang['profdeleteuser']        = 'Slett konto';
 $lang['profdeleted']           = 'Din brukerkonto har blitt slettet fra denne wikien';
-$lang['profconfdelete']        = 'Jeg ønsker å fjerne min konto fra denne wikien. <br/> Denne handlingen kan ikke omgjøres.';
-$lang['profconfdeletemissing'] = 'Boks for bekreftelse ikke avkrysset';
+$lang['profconfdelete']        = 'Jeg ønsker å fjerne min konto fra denne wikien. <br/> Denne handlingen kan ikke gjøres om.';
+$lang['profconfdeletemissing'] = 'Boks for bekreftelse er ikke avkrysset';
 $lang['proffail']              = 'Brukerprofilen ble ikke oppdatert';
-$lang['pwdforget']             = 'Glemt passordet ditt? Få deg et nytt';
+$lang['pwdforget']             = 'Har du glemt passordet ditt? Få et nytt et';
 $lang['resendna']              = 'Denne wikien støtter ikke nyutsending av passord.';
 $lang['resendpwd']             = 'Sett nytt passord for';
 $lang['resendpwdmissing']      = 'Beklager, du må fylle inn alle felt.';
@@ -114,7 +115,7 @@ $lang['resendpwdconfirm']      = 'En bekreftelseslenke er blitt sendt på e-post
 $lang['resendpwdsuccess']      = 'Ditt nye passord er blitt sendt på e-post.';
 $lang['license']               = 'Der annet ikke er angitt, er innholdet på denne wiki utgitt under følgende lisens:';
 $lang['licenseok']             = 'Merk: Ved å endre på denne siden godtar du at ditt innhold utgis under følgende lisens:';
-$lang['searchmedia']           = 'Søk filnavn';
+$lang['searchmedia']           = 'Søk filnavn:';
 $lang['searchmedia_in']        = 'Søk i %s';
 $lang['txt_upload']            = 'Velg fil som skal lastes opp:';
 $lang['txt_filename']          = 'Skriv inn wikinavn (alternativt):';
@@ -185,13 +186,13 @@ $lang['accessdenied']          = 'Du har ikke tilgang til å se denne siden';
 $lang['mediausage']            = 'Bruk følgende syntaks til å referere til denne filen:';
 $lang['mediaview']             = 'Vis original fil';
 $lang['mediaroot']             = 'rot';
-$lang['mediaupload']           = 'Last opp en fil til gjeldende navnerom her. For å opprette undernavnerom, før dem opp før filnavn i "Last opp som" adskilt med kolon.';
+$lang['mediaupload']           = 'Last opp en fil til gjeldende navnerom. For å opprette undernavnerom, skriv disse inn, adskilt med kolon, før filnavnet i boksen under her. Dette må gjøres etter at du har valg hvilken fil du vil laste opp. Du kan også «dra og slippe» en fil, for å laste denne opp.';
 $lang['mediaextchange']        = 'Filendelse endret fra .%s til .%s!';
 $lang['reference']             = 'Referanser for';
 $lang['ref_inuse']             = 'Denne filen kan ikke slettes fordi den er fortsatt i bruk på følgende sider:';
 $lang['ref_hidden']            = 'Noen referanser er på sider du ikke har tilgang til å lese';
 $lang['hits']                  = 'Treff';
-$lang['quickhits']             = 'Matchende wikinavn';
+$lang['quickhits']             = 'Samsvarende wikinavn';
 $lang['toc']                   = 'Innholdsfortegnelse';
 $lang['current']               = 'nåværende versjon';
 $lang['yours']                 = 'Din versjon';
@@ -296,10 +297,10 @@ $lang['i_wikiname']            = 'Wikinavn';
 $lang['i_enableacl']           = 'Aktiver ACL (anbefalt)';
 $lang['i_superuser']           = 'Superbruker';
 $lang['i_problems']            = 'Installasjonen oppdaget noen problemer, disse listes nedenfor. Du kan ikke fortsett før du har løst disse.';
-$lang['i_modified']            = 'For sikkerhets skyld vil dette skriptet bare virke med en ny og uendret Dokuwiki-installsjon.
+$lang['i_modified']            = 'Av sikkerhetsgrunner vil dette skriptet bare virke med en ny og uendret Dokuwiki-installsjon.
                          Du bør enten pakke ut filene på nytt fra den nedlastede pakken, eller konsultere den komplette
                          <a href="http://dokuwiki.org/install">Dokuwiki-installasjonsinstruksen</a>';
-$lang['i_funcna']              = 'PHP-funksjonen <code>%s</code> er ikke tilgjengelig. Kanskje din leverandør har deaktivert den av noen grunn?';
+$lang['i_funcna']              = 'PHP-funksjonen <code>%s</code> er ikke tilgjengelig. Av en eller annen grunn har kanskje din leverandør deaktivert denne?';
 $lang['i_phpver']              = 'Din PHP versjon <code>%s</code> er lavere enn kravet <code>%s</code>. Du må oppgradere PHP installasjonen. ';
 $lang['i_mbfuncoverload']      = 'mbstring.func_overload må deaktiveres i php.ini for å kjøre DokuWiki.';
 $lang['i_permfail']            = '<code>%s</code> er ikke skrivbar for DokuWiki. Du må fikse rettighetene for denne mappen!';
@@ -307,7 +308,7 @@ $lang['i_confexists']          = '<code>%s</code> eksisterer allerede';
 $lang['i_writeerr']            = 'Kunne ikke opprette <code>%s</code>. Du må sjekke mappe-/filrettigheter og opprette filen manuelt.';
 $lang['i_badhash']             = 'ikke gjenkjent eller modifisert dokuwiki.php (hash=<code>%s</code>)';
 $lang['i_badval']              = '<code>%s</code> - ugyldig eller tom verdi';
-$lang['i_success']             = 'Konfigurasjonen ble vellykket fullført. Du kan slette install.php filen nå. Fortsett til
+$lang['i_success']             = 'Konfigurasjonen ble utført. Du kan slette install.php filen nå. Fortsett til
                         <a href="doku.php?id=wiki:welcome">din nye DokuWiki</a>.';
 $lang['i_failure']             = 'En eller flere feil oppstod ved skriving til konfigurasjonsfilene. Du må kanskje fikse dem manuelt før
                          du kan bruke <a href="doku.php?id=wiki:welcome">din nye DokuWiki</a>.';
@@ -319,8 +320,8 @@ $lang['i_allowreg']            = 'Tillat at brukere registrerer seg selv';
 $lang['i_retry']               = 'Prøv igjen';
 $lang['i_license']             = 'Velg lisens som du vil legge ut innholdet under:';
 $lang['i_license_none']        = 'Ikke vis noen lisensinformasjon';
-$lang['i_pop_field']           = 'Venligst hejlp oss å forbedre Dokuwiki-opplevelsen:';
-$lang['i_pop_label']           = 'Sand annonyme bruksdata til Dokuwiki-utviklerene, en gang i måneden';
+$lang['i_pop_field']           = 'Venligst hjelp oss å forbedre Dokuwiki-opplevelsen:';
+$lang['i_pop_label']           = 'En gang i måneden, send annonyme bruksdata til Dokuwiki-utviklerene, ';
 $lang['recent_global']         = 'Du ser nå på endringene i navnerommet <b>%s</b>. Du kan også<a href="%s">se på nylig foretatte endringer for hele wikien</a>.';
 $lang['years']                 = '%d år siden';
 $lang['months']                = '%d måneder siden';
@@ -358,6 +359,6 @@ $lang['searchresult']          = 'Søk i resultat';
 $lang['plainhtml']             = 'Enkel HTML';
 $lang['wikimarkup']            = 'wiki-format';
 $lang['page_nonexist_rev']     = 'Finnes ingen side på %s. Den er derfor laget på <a href="%s">%s</a>';
-$lang['email_signature_text']       = 'Denne meldingen ble laget av DokuWiki
-@DOKUWIKIURL@';
 $lang['unable_to_parse_date']  = 'Ikke mulig å tolke "%s".';
+$lang['email_signature_text']  = 'Denne meldingen ble laget av DokuWiki
+@DOKUWIKIURL@';

@@ -1,0 +1,2 @@
+Hvis du ønsker å justere logoen, kan du bruke  mediefilbehandleren til å laste opp en fil med navn lik ''logo.png'' i''wiki'' eller ''root''navneromet,  og denne vil da bli brukt. Du kan også laste opp en fil med navn '' favicon.ico '' der.  Hvis du bruker en lukket
+Wiki anbefales det å gjøre '' wiki '' (eller root) navneromet lesbar (for world) i ACL-innstillinger: Hvis ikke vil din logo ikke bli vist for brukere som ikke er pålogget.

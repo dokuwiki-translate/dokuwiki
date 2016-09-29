@@ -2,7 +2,7 @@
 
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
- * 
+ *
  * @author Thomas Nygreen <nygreen@gmail.com>
  * @author Arild Burud <arildb@met.no>
  * @author Torkill Bruland <torkar-b@online.no>
@@ -16,6 +16,7 @@
  * @author Rune Rasmussen syntaxerror.no@gmail.com
  * @author Jon Bøe <jonmagneboe@hotmail.com>
  * @author Egil Hansen <egil@rosetta.no>
+ * @author Arne Hanssen <arne.hanssen@getmail.no>
  */
 $lang['menu']                  = 'Behandle brukere';
 $lang['noauth']                = '(autentisering av brukere ikke tilgjengelig)';
@@ -58,3 +59,13 @@ $lang['add_ok']                = 'Brukeren ble lagt til';
 $lang['add_fail']              = 'Brukeren kunne ikke legges til';
 $lang['notify_ok']             = 'Varsling sendt';
 $lang['notify_fail']           = 'Varsling kunne ikke sendes';
+$lang['import_notify_fail']    = 'Kunne ikke sende e-post med varsling for importert bruker %s med adresse %s ';
+$lang['import_downloadfailures'] = 'Last ned feil som CSV-fil.';
+$lang['addUser_error_missing_pass'] = 'Du må enten angi et passord,  eller slå på »varsle bruker» som da automatisk vil lage et nytt passord.';
+$lang['addUser_error_pass_not_identical'] = 'De angitte passordene var ikke lik.';
+$lang['addUser_error_modPass_disabled'] = 'Muligheten til å endre passord er for tiden slått av';
+$lang['addUser_error_name_missing'] = 'Angi navnet på den nye brukeren.';
+$lang['addUser_error_modName_disabled'] = 'Muligheten til å endre navn er for tiden slått av';
+$lang['addUser_error_mail_missing'] = 'Angi e-postadresse til den nye brukeren.';
+$lang['addUser_error_modMail_disabled'] = 'Muligheten til å endre e-postadresse er for tiden slått av';
+$lang['addUser_error_create_event_failed'] = 'Et tillegg hindret at en ny bruker kunne legges til. Sjekk andre mulige tilbakemeldinger for mer informasjon.';
