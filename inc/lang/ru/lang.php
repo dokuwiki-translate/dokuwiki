@@ -3,6 +3,7 @@
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  *
+ * @author Abraam <admin@ukr.net>
  * @author Nikita <obraztsov568@gmail.com>
  * @author Aleksandr Selivanov <alexgearbox@yandex.ru>
  * @author Анатолий <anatol_m@mail.ru>
