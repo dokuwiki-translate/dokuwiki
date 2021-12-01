@@ -3,6 +3,7 @@
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  *
+ * @author Montserrat <mmontane@educem.com>
  * @author David Surroca <davidsurrocaestrada@gmail.com>
  * @author Adolfo Jayme Barrientos <fito@libreoffice.org>
  * @author Carles Bellver <carles.bellver@gmail.com>
