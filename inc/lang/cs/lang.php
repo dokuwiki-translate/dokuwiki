@@ -131,6 +131,7 @@ $lang['js']['media_done_btn']  = 'Hotovo';
 $lang['js']['media_drop']      = 'Sem přetáhněte soubory pro nahrátí';
 $lang['js']['media_cancel']    = 'odstranit';
 $lang['js']['media_overwrt']   = 'Přepsat existující soubory';
+$lang['js']['data_insecure']   = 'VAROVÁNÍ: Zdá se, že váš datový adresář není řádně zabezpečen. Přečtěte si, prosím, informace o <a href="https://www.dokuwiki.org/security#web_access_security">zabezpečení webového přístupu v DokuWiki</a>.';
 $lang['search_exact_match']    = 'Přesná shoda';
 $lang['search_starts_with']    = 'Začíná s';
 $lang['search_ends_with']      = 'Končí s';
