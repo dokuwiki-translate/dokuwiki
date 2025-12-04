@@ -2,6 +2,58 @@
 # but were removed later. An up to date DokuWiki should not have any of
 # the files installed
 
+# removed on 2025-12-04
+_cs/DokuWiki/Sniffs/Functions/OpeningFunctionBraceSniff.php
+_cs/DokuWiki/Sniffs/NamingConventions/ConstructorNameSniff.php
+_cs/DokuWiki/Sniffs/PHP/DeprecatedFunctionsSniff.php
+_cs/DokuWiki/Sniffs/PHP/DiscouragedFunctionsSniff.php
+_cs/DokuWiki/Sniffs/WhiteSpace/ScopeIndentSniff.php
+_cs/DokuWiki/ruleset.xml
+_cs/README
+inc/FeedParser.php
+inc/lang/ku/admin.txt
+inc/lang/ku/denied.txt
+inc/lang/ku/editrev.txt
+inc/lang/ku/locked.txt
+inc/lang/ku/login.txt
+inc/lang/ku/mailtext.txt
+inc/lang/ku/norev.txt
+inc/lang/ku/password.txt
+inc/lang/ku/read.txt
+inc/lang/ku/register.txt
+inc/lang/ku/revisions.txt
+inc/lang/ku/showrev.txt
+inc/lang/ku/stopwords.txt
+lib/plugins/acl/lang/hi/lang.php
+lib/plugins/acl/lang/id-ni/lang.php
+lib/plugins/acl/lang/lb/lang.php
+lib/plugins/acl/lang/ms/lang.php
+lib/plugins/authpgsql/lang/fi/settings.php
+lib/plugins/config/lang/id/lang.php
+lib/plugins/config/lang/kk/lang.php
+lib/plugins/config/lang/lb/lang.php
+lib/plugins/config/lang/mk/lang.php
+lib/plugins/config/lang/ms/lang.php
+lib/plugins/popularity/lang/et/lang.php
+lib/plugins/popularity/lang/id/lang.php
+lib/plugins/popularity/lang/kk/lang.php
+lib/plugins/popularity/lang/lb/lang.php
+lib/plugins/popularity/lang/mk/lang.php
+lib/plugins/popularity/lang/ms/lang.php
+lib/plugins/revert/lang/af/lang.php
+lib/plugins/revert/lang/hi/lang.php
+lib/plugins/revert/lang/id-ni/lang.php
+lib/plugins/revert/lang/id/lang.php
+lib/plugins/revert/lang/kk/lang.php
+lib/plugins/revert/lang/lb/lang.php
+lib/plugins/revert/lang/lt/lang.php
+lib/plugins/revert/lang/mk/lang.php
+lib/plugins/revert/lang/ms/lang.php
+lib/plugins/usermanager/lang/hi/lang.php
+lib/plugins/usermanager/lang/id-ni/lang.php
+lib/plugins/usermanager/lang/lb/lang.php
+lib/plugins/usermanager/lang/ms/lang.php
+
 # removed on 2024-12-09
 lib/plugins/extension/_test/extension.test.php
 lib/plugins/extension/all.less
